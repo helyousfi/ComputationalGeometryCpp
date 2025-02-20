@@ -1,0 +1,51 @@
+﻿  Circle.cpp
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,25): error C2039: 'a': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,37): error C2039: 'b': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,49): error C2039: 'c': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,34): error C2039: 'a': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,54): error C2039: 'b': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,74): error C2039: 'c': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,28): error C2039: 'a': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,37): error C2039: 'a': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,46): error C2039: 'b': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
+D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,55): error C2039: 'b': is not a member of 'GeometryLib::Line'
+  (compiling source file '/Circle.cpp')
+      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
+      see declaration of 'GeometryLib::Line'
+  
