@@ -4,13 +4,19 @@
 
 #include "Point.h"
 
+#ifdef GEOMETRYLIB_EXPORTS
+#define GEOMETRY_API __declspec(dllexport)
+#else
+#define GEOMETRY_API __declspec(dllimport)
+#endif
+
 namespace GeometryLib {
 
     /**
      * @class Line
      * @brief Represents a line segment between two points.
      */
-    class Line {
+    class GEOMETRY_API Line {
     public:
         Point start, end;
 

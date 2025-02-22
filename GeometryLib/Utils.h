@@ -3,6 +3,13 @@
 
 #include "Point.h"
 
+
+#ifdef GEOMETRYLIB_EXPORTS
+#define GEOMETRY_API __declspec(dllexport)
+#else
+#define GEOMETRY_API __declspec(dllimport)
+#endif
+
 namespace GeometryLib {
 
 	/**
@@ -12,7 +19,7 @@ namespace GeometryLib {
 	 * @param c Third point.
 	 * @return Positive if counterclockwise, negative if clockwise, zero if collinear.
 	 */
-	double ccw(const Point& a, const Point& b, const Point& c);
+	GEOMETRY_API double ccw(const Point& a, const Point& b, const Point& c);
 
 } 
 

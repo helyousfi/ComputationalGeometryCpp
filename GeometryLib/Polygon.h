@@ -4,9 +4,15 @@
 #include <vector>
 #include "Point.h"
 
+#ifdef GEOMETRYLIB_EXPORTS
+#define GEOMETRY_API __declspec(dllexport)
+#else
+#define GEOMETRY_API __declspec(dllimport)
+#endif
+
 namespace GeometryLib {
 
-    class Polygon {
+    class GEOMETRY_API Polygon {
     private:
         std::vector<Point> vertices;
 

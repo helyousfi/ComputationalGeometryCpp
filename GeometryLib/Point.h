@@ -5,8 +5,14 @@
 #include <cmath>
 #include <iostream>
 
+#ifdef GEOMETRYLIB_EXPORTS
+#define GEOMETRY_API __declspec(dllexport)
+#else
+#define GEOMETRY_API __declspec(dllimport)
+#endif
+
 namespace GeometryLib {
-    class Point {
+    class GEOMETRY_API Point {
     public:
         double x, y;
         char name;

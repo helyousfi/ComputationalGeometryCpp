@@ -1,51 +1,24 @@
 ﻿  Circle.cpp
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,25): error C2039: 'a': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
+  Intersections.cpp
+  Line.cpp
+D:\GeometryLib\GeometryLib\GeometryLib\Polygon.h(17,28): warning C4251: 'GeometryLib::Polygon::vertices': 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>' needs to have dll-interface to be used by clients of 'GeometryLib::Polygon'
+  (compiling source file '/Line.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>'
   
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,37): error C2039: 'b': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
+  Point.cpp
+D:\GeometryLib\GeometryLib\GeometryLib\Polygon.h(17,28): warning C4251: 'GeometryLib::Polygon::vertices': 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>' needs to have dll-interface to be used by clients of 'GeometryLib::Polygon'
+  (compiling source file '/Point.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>'
   
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(45,49): error C2039: 'c': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
+  Polygon.cpp
+D:\GeometryLib\GeometryLib\GeometryLib\Polygon.h(17,28): warning C4251: 'GeometryLib::Polygon::vertices': 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>' needs to have dll-interface to be used by clients of 'GeometryLib::Polygon'
+  (compiling source file '/Polygon.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      see declaration of 'std::vector<GeometryLib::Point,std::allocator<GeometryLib::Point>>'
   
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,34): error C2039: 'a': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,54): error C2039: 'b': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(84,74): error C2039: 'c': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,28): error C2039: 'a': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,37): error C2039: 'a': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,46): error C2039: 'b': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
-D:\GeometryLib\GeometryLib\GeometryLib\Circle.cpp(85,55): error C2039: 'b': is not a member of 'GeometryLib::Line'
-  (compiling source file '/Circle.cpp')
-      D:\GeometryLib\GeometryLib\GeometryLib\Line.h(13,11):
-      see declaration of 'GeometryLib::Line'
-  
+  Utils.cpp
+  Generating Code...
+     Creating library D:\GeometryLib\GeometryLib\x64\Debug\GeometryLib.lib and object D:\GeometryLib\GeometryLib\x64\Debug\GeometryLib.exp
+  GeometryLib.vcxproj -> D:\GeometryLib\GeometryLib\x64\Debug\GeometryLib.dll

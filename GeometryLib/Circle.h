@@ -1,14 +1,21 @@
-#ifndef CIRCLE_H
+﻿#ifndef CIRCLE_H
 #define CIRCLE_H
 
 #include "Point.h"
 #include <cmath>
 
+#ifdef GEOMETRYLIB_EXPORTS
+#define GEOMETRY_API __declspec(dllexport)
+#else
+#define GEOMETRY_API __declspec(dllimport)
+#endif
+
 namespace GeometryLib {
-    class Circle {
+    class GEOMETRY_API Circle {
     public:
         Point center;
         double radius;
+
         Circle();
         Circle(const Point& center_, double radius_);
 
@@ -25,6 +32,6 @@ namespace GeometryLib {
         // Utility Methods
         void print() const;
     };
+}
 
-} 
 #endif 
