@@ -57,7 +57,9 @@ namespace GeometryLib {
     // Print circle details
     template <typename T>
     void Circle<T>::print() const {
-        std::cout << "Circle(Center: (" << center.GetX() << ", " << center.GetY() << "), Radius: " << radius << ")\n";
+        std::cout << "Circle(Center: ("; 
+        center.print();
+        std::cout << "), Radius: " << radius << ")\n";
     }
 
     // Explicit instantiation (optional, if needed for common types like double, float)
