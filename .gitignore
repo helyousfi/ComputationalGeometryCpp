@@ -1,0 +1,94 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.vsidx
+*.ipch
+*.pdb
+*.tlog
+*.ilk
+*.log
+*.db-wal
+*.db
+*.db-shm 
+*.opendb
+*.idb
+*.json
+*.vs/
+.x64/Debug/
+
+# Visual Studio-specific files
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opendb
+*.sln.docstates
+
+# Build artifacts
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.cache
+*.log
+*.manifest
+
+# CMake and Makefile build files (if applicable)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
