@@ -26,6 +26,7 @@ namespace GeometryLib {
 
         T length() const;
         bool contains(const Point<T>& p) const;  
+        T slope() const;
         Point<T> midpoint() const;
 
         void print() const;

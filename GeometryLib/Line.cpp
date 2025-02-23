@@ -23,6 +23,11 @@ namespace GeometryLib {
     }
 
     template <typename T>
+    T Line<T>::slope() const {
+        return (end.GetY() - start.GetY()) / (end.GetX() - start.GetX())
+    }
+
+    template <typename T>
     Point<T> Line<T>::midpoint() const {  
         Point<T> midPoint;
         midPoint = (start + end) / 2;
