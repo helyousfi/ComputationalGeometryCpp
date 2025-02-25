@@ -40,12 +40,7 @@ namespace GeometryLib {
         return center.distanceTo(p) <= radius + EPSILON;
     }
 
-    // Check if two circles intersect
-    template <typename T>
-    bool Circle<T>::intersectsWith(const Circle<T>& other) const {
-        double d = center.distanceTo(other.center);
-        return d <= (radius + other.radius) && d >= fabs(radius - other.radius);
-    }
+    
 
     // Check if two circles are tangent to each other
     template <typename T>

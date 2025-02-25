@@ -35,15 +35,11 @@ namespace GeometryLib {
         double area() const;
         bool isConvex() const;
         bool containsPoint(const Point<T>& p) const;
-        //bool isSimple() const;
 
         // Transformations
         void translate(double dx, double dy);
         void rotate(double angle, const Point<T>& center);
         void scale(double factor, const Point<T>& center);
-
-        // Intersections
-        bool intersects(const Polygon<T>& other) const;
 
         // Utility Functions
         Polygon<T> convexHull() const;

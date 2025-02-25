@@ -27,7 +27,6 @@ namespace GeometryLib {
 
         // Geometric Operations
         bool contains(const Point<T>& p) const;
-        bool intersectsWith(const Circle<T>& other) const;
         bool isTangentTo(const Circle<T>& other) const;
 
         // Utility Methods

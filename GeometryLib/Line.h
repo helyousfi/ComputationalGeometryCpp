@@ -13,14 +13,14 @@
 namespace GeometryLib {
 
     /**
-     * @class Line
-     * @brief Represents a line segment between two points.
+     * Represents a line segment between two points.
      */
     template <typename T>
     class GEOMETRY_API Line {
     public:
         Point<T> start, end;
 
+        // Constructors
         Line();
         Line(const Point<T>& start_, const Point<T>& end_);  
 

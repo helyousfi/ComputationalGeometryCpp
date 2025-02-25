@@ -24,9 +24,9 @@ namespace GeometryLib {
         Point(T x_, T y_, char name_);
 
         // Getters
-        T GetX();
-        T GetY();
-        char GetName();
+        T GetX() const;
+        T GetY() const;
+        char GetName() const;
 
         T distanceTo(const Point<T>& other) const;
 
@@ -37,6 +37,7 @@ namespace GeometryLib {
         bool operator==(const Point<T>& other) const;
         bool operator!=(const Point<T>& other) const;
 
+        // Print a point
         void print() const;
     };
 }

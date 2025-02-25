@@ -15,13 +15,13 @@ namespace GeometryLib {
     Point<T>::Point(T x_, T y_, char name_) : x(x_), y(y_), name(name_) {}
 
     template <typename T>
-    T Point<T>::GetX() { return x; }
+    T Point<T>::GetX() const { return x; }
 
     template <typename T>
-    T Point<T>::GetY() { return y; }
+    T Point<T>::GetY() const { return y; }
 
     template <typename T>
-    char Point<T>::GetName() { return name; }
+    char Point<T>::GetName() const { return name; }
 
     template <typename T>
     T Point<T>::distanceTo(const Point<T>& other) const {

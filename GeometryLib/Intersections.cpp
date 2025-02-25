@@ -18,5 +18,23 @@ namespace GeometryLib {
 
         return false;  
     }
+    template <typename T>
+    GEOMETRY_API bool intersection(const Circle<T>& circle1, const Circle<T>& circle2)
+    {
+        double d = circle1.center.distanceTo(circle2.center);
+        return d <= (circle1.radius + circle2.radius) && d >= fabs(circle1.radius - circle2.radius);
+    }
+
+    template <typename T>
+    GEOMETRY_API bool intersection(const Polygon<T>& polygon1, const Polygon<T>& polygon2)
+    {
+        for (const Point<T>& p : polygon2.getVertices()) {
+            if (polygon1.containsPoint(p)) return true;
+        }
+        for (const Point<T>& p : polygon1.getVertices()) {
+            if (polygon2.containsPoint(p)) return true;
+        }
+        return false;
+    }
 
 } 
