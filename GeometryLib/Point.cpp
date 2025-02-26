@@ -50,9 +50,4 @@ namespace GeometryLib {
     void Point<T>::print() const {
         std::cout << "(" << x << ", " << y << ") [" << name << "]\n";
     }
-
-    // Explicit instantiation of the template for common types
-    template class Point<int>;
-    template class Point<float>;
-    template class Point<double>;
 }

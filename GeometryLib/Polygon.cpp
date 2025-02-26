@@ -115,18 +115,6 @@ namespace GeometryLib {
         }
     }
 
-    // Intersection (basic bounding box check first)
-    template <typename T>
-    bool Polygon<T>::intersects(const Polygon<T>& other) const {
-        for (const Point<T>& p : other.getVertices()) {
-            if (containsPoint(p)) return true;
-        }
-        for (const Point<T>& p : getVertices()) {
-            if (other.containsPoint(p)) return true;
-        }
-        return false;
-    }
-
     // Convex Hull (Graham Scan)
     template <typename T>
     Polygon<T> Polygon<T>::convexHull() const {

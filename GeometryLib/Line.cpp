@@ -24,7 +24,7 @@ namespace GeometryLib {
 
     template <typename T>
     T Line<T>::slope() const {
-        return (end.GetY() - start.GetY()) / (end.GetX() - start.GetX())
+        return (end.GetY() - start.GetY()) / (end.GetX() - start.GetX());
     }
 
     template <typename T>

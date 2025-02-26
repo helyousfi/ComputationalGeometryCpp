@@ -24,7 +24,7 @@ namespace GeometryLib {
 
     // Template function to find the intersection of two polygons
     template <typename T>
-    GEOMETRY_API bool intersection(const Polygon<T>& polygon1, const Polygon<T>& polygon2)
+    GEOMETRY_API bool intersection(const Polygon<T>& polygon1, const Polygon<T>& polygon2);
 }
 
 #endif

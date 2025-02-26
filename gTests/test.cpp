@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "Circle.h"
 #include "Point.h"
 #include <gtest/gtest.h>
@@ -32,11 +33,4 @@ TEST(CircleTest, Tangency) {
 
     EXPECT_TRUE(c1.isTangentTo(c2));
     EXPECT_FALSE(c1.isTangentTo(c3));
-}
-
-// Add more tests as needed...
-
-int main(int argc, char** argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
 }

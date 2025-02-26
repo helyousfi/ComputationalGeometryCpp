@@ -40,6 +40,11 @@ namespace GeometryLib {
         // Print a point
         void print() const;
     };
+
+    // Explicit instantiation of the template for common types
+    template class GEOMETRY_API Point<int>;
+    template class GEOMETRY_API Point<double>;
+    template class GEOMETRY_API Point<float>;
 }
 
 #endif // POINT_H
