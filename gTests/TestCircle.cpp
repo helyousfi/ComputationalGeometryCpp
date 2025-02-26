@@ -19,8 +19,8 @@ TEST(CircleTest, ContainsPoint) {
     Point<double> center(0.0, 0.0);
     Circle<double> circle(center, 5.0);
 
-    Point<double> insidePoint(3.0, 4.0); // Distance = 5, on the edge
-    Point<double> outsidePoint(6.0, 0.0); // Outside the circle
+    Point<double> insidePoint(3.0, 4.0);
+    Point<double> outsidePoint(6.0, 0.0);
 
     EXPECT_TRUE(circle.contains(insidePoint));
     EXPECT_FALSE(circle.contains(outsidePoint));
@@ -28,8 +28,8 @@ TEST(CircleTest, ContainsPoint) {
 
 TEST(CircleTest, Tangency) {
     Circle<double> c1(Point<double>(0.0, 0.0), 5.0);
-    Circle<double> c2(Point<double>(10.0, 0.0), 5.0); // Externally tangent
-    Circle<double> c3(Point<double>(5.0, 0.0), 5.0); // Intersecting
+    Circle<double> c2(Point<double>(10.0, 0.0), 5.0);
+    Circle<double> c3(Point<double>(5.0, 0.0), 5.0);
 
     EXPECT_TRUE(c1.isTangentTo(c2));
     EXPECT_FALSE(c1.isTangentTo(c3));

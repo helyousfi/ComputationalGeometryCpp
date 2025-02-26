@@ -32,6 +32,10 @@ namespace GeometryLib {
         void print() const;
     };
 
+    // Explicit instantiation of the template for common types
+    template class GEOMETRY_API Line<int>;
+    template class GEOMETRY_API Line<double>;
+    template class GEOMETRY_API Line<float>;
 }
 
 #endif // LINE_H
