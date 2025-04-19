@@ -10,6 +10,9 @@ namespace GeometryLib {
     Line<T>::Line(const Point<T>& start_, const Point<T>& end_) : start(start_), end(end_) {}
 
     template <typename T>
+    Line<T>::Line(const Point<T>& start_, const Point<T>& end_, char name_) : start(start_), end(end_), name(name_) {}
+
+    template <typename T>
     T Line<T>::length() const {
         return start.distanceTo(end);
     }
@@ -42,5 +45,8 @@ namespace GeometryLib {
         end.print();
         std::cout << std::endl;
     }
+
+    
+
 
 } 

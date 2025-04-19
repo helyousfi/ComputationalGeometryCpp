@@ -11,8 +11,11 @@
 #endif
 
 namespace GeometryLib {
+    /**
+     * Represents a Point.
+     */
     template <typename T>
-    class Point {
+    class GEOMETRY_API Point {
     private:
         T x, y;
         char name;

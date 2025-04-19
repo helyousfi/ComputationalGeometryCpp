@@ -19,10 +19,15 @@ namespace GeometryLib {
     class GEOMETRY_API Line {
     public:
         Point<T> start, end;
+        char name;
 
         // Constructors
         Line();
         Line(const Point<T>& start_, const Point<T>& end_);  
+        Line(const Point<T>& start_, const Point<T>& end_, char name_);
+
+        char GetName() const;
+        T distanceTo(const Point<T>& point) const;
 
         T length() const;
         bool contains(const Point<T>& p) const;  

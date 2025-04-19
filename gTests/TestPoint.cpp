@@ -8,5 +8,6 @@ using namespace GeometryLib;
 // Define test cases
 TEST(PointTest, Properties) {
     Point<double> center(0.0, 0.0, 'O');
+    EXPECT_FALSE(center.GetName() == 'O0');
     EXPECT_TRUE(center.GetName() == 'O');
 }
